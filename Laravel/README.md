@@ -1,6 +1,6 @@
 #How To Use
 1. git clone https://github.com/cooem/L-KA.git <local-name>
-2. cd <local-name>
+2. cd (<local-name>)
 3. composer install
 4. cp .env.example .env
 5. php artisan key:generate
