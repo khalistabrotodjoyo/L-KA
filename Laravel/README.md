@@ -8,7 +8,7 @@
 7. php artisan migrate --seed
 8. php artisan migrate:refresh --seed (optional)
 9. php artisan serve
-10. Open Your Browser follow this link [open](localhost:8000
+10. Open Your Browser follow this link [open](localhost:8000)
 
 #Todo List
 + Create Your Branch
