@@ -7,6 +7,12 @@
 6. config your .env file
 7. php artisan migrate --seed
 8. php artisan migrate:refresh --seed (optional)
+    + add this code on file app/Providers/RouteServiceProvider.php
+    + use Illuminate\Support\Facades\Schema;
+    + public function boot() 
+      {
+          Schema::defaultStringLength(191);
+      }
 9. php artisan serve
 10. Open Your Browser follow this link [open](localhost:8000)
 
